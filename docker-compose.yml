@@ -28,6 +28,8 @@ services:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - ENGINE=${ENGINE}
+      - DEBUG=${DEBUG}
+      - SECRET_KEY=${SECRET_KEY}
 #      - POSTGRES_DB=app
 #      - POSTGRES_USER=postgres
 #      - POSTGRES_PASSWORD=supersecretpassword
