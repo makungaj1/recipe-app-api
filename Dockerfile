@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER Jonathan Makunga Inc
+MAINTAINER JM App Developer Ltd
 
 ENV PYTHONUNBUFFERED 1
 
